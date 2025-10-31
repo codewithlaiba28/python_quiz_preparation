@@ -105,3 +105,17 @@ print(type(my_set), "my_set = ", my_set)
 frozen_set = frozenset([11, 2, 3, 4, 4, 5])
 #frozen_set = frozenset(my_set)
 print(type(frozen_set), " frozen_set = ", frozen_set) 
+
+
+# 5. Mapping Type
+# Dictionary (dict) Stores key-value pairs.
+
+
+my_dict: dict = {"name": "Alice", "age": 25, "language": "Python"}
+print(type(my_dict)," my_dict = ", my_dict )  # 
+     
+# <class 'dict'>  my_dict =  {'name': 'Alice', 'age': 25, 'language': 'Python'}
+
+
+# 6. Binary Types
+# In Python, binary types are used to handle binary data, such as raw bytes, binary files, or data exchanged over networks. Binary types are distinct from text types (str) and are specifically designed to represent and manipulate sequences of bytes. Python provides three built-in binary types:
