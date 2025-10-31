@@ -114,7 +114,6 @@ print(type(frozen_set), " frozen_set = ", frozen_set)
 my_dict: dict = {"name": "Alice", "age": 25, "language": "Python"}
 print(type(my_dict)," my_dict = ", my_dict )  # 
      
-# <class 'dict'>  my_dict =  {'name': 'Alice', 'age': 25, 'language': 'Python'}
 
 
 # 6. Binary Types
