@@ -118,3 +118,4 @@ print(type(my_dict)," my_dict = ", my_dict )  #
 
 # 6. Binary Types
 # In Python, binary types are used to handle binary data, such as raw bytes, binary files, or data exchanged over networks. Binary types are distinct from text types (str) and are specifically designed to represent and manipulate sequences of bytes. Python provides three built-in binary types:
+
