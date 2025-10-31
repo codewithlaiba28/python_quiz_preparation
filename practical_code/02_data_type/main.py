@@ -48,9 +48,42 @@ print(type(text_multi_1), " text_multi_1  = ", text_multi_1)
 
 
 # b. List (list)
-
+# Ordered collection of items, mutable (can be changed).
 my_list_1: int = [1, 2, 3, "Java", 3.14, True]
 my_list: list = [1, 2, 3, "Python", 3.14, 3+2j]
 
 print(type(my_list_1), " my_list_1 = ", my_list_1)  
 print(type(my_list), " my_list   =  " + str(my_list)) # we will look into type casting in classes ahead
+
+
+
+
+# c. Tuple (tuple)
+# Immutable ordered collection of items.
+my_tuple: tuple = (1, 2, 3, "AI", 2.71, False, .3 , 3+2j )
+print(type(my_tuple), " my_tuple = ", my_tuple )  
+print(type(my_tuple), " my_tuple = "+ str(my_tuple) )  
+
+
+# d. Range (range)
+# Represents a sequence of numbers.
+
+
+num_range: range = range(1, 10, 1) # range(start, stop, step)
+print(type(num_range), " num_range = ", num_range.step)  #
+     
+
+for i in range(1, 10, 2): # we will study loops indepth in classes ahead
+  print(i)
+     
+
+# example for range to create a list
+
+list = [1,2,3,4,5,6,7,8,9]
+for i in range(0, len(list), 2): # we will study loops indepth in classes ahead
+  print("Index:", i, "Value:", list[i])
+
+
+
+# 4. Set Types
+# items are unordered, unindexed, and do not allow duplicate values.the set itself is mutable.
