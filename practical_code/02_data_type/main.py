@@ -87,3 +87,21 @@ for i in range(0, len(list), 2): # we will study loops indepth in classes ahead
 
 # 4. Set Types
 # items are unordered, unindexed, and do not allow duplicate values.the set itself is mutable.
+
+
+# a. Set (set)
+
+
+# Mutable, unordered, and contains unique values.
+my_set: set = {1, 2, 33, 4, 4, 5}
+print(type(my_set), "my_set = ", my_set)  
+
+
+
+# b. Frozen Set (frozenset)
+
+# Immutable version of a set.
+
+frozen_set = frozenset([11, 2, 3, 4, 4, 5])
+#frozen_set = frozenset(my_set)
+print(type(frozen_set), " frozen_set = ", frozen_set) 
